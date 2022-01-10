@@ -1,9 +1,6 @@
 # MechaCar_Statistical_Analysis
-## Summary
-
 
 ## Linear Regression to Predict MPG
-
 ![image1](https://github.com/JFoArlas/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_summary.png)
 
 - **Vehicle Weight** & **Ground Clearance** provided a non-random amount of variance to the mpg values in the dataset. This means that both of those variables had an effect on mpg in the MechaCar.
@@ -30,7 +27,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 - Because that p-value is higher than .05, we do not have enough evidence to reject the null hypothesis. **So the PSI across all manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch.**
 
-### I additionally perfored t-tests on each lot individually.
+### I additionally performed t-tests on each lot individually.
 
 ![image5](https://github.com/JFoArlas/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lots1-3.png)
 
@@ -39,3 +36,9 @@ The design specifications for the MechaCar suspension coils dictate that the var
 - After performing a t-test on lot 2, I found that the mean of the sample is 1500.2, with a p-value of .61. Because that p-value is higher than .05, we do not have enough evidence to reject the null hypothesis. **So the PSI for lot 2 is statistically similar to the population mean of 1,500 pounds per square inch.**
 
 - After performing a t-test on lot 3, I found that the mean of the sample is 14,96.14, with a p-value of .04. Because that p-value is lower than .05, we do have enough evidence to reject the null hypothesis. **So the PSI for lot 3 is not statistically similar to the population mean of 1,500 pounds per square inch.**
+
+## Study Design: MechaCar vs Competition
+- To prove that MechaCar is a good value for the price, one could use **cost as the independent variable**, and other factors like **MPG, horse power, maintenance cost, & safety rating and independent variables**.
+- Null hypothesis: MechaCar's performance relative to it's price is a good value.
+- Alternative hypothesis: MechaCar's performance relative to it's price is not a good value.
+- One could use multiple linear regression to test this hypothesis because there are 2+ variables to consider.
