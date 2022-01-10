@@ -30,3 +30,17 @@ lot_summary <- coil_table %>%
             Variance=var(PSI),
             SD=sd(PSI),
             .groups = 'keep')
+
+#DELIVERABLE 3:
+
+#determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+t.test(coil_table$PSI,mu=1500)
+
+#3 more t.tests, 1 for each lot
+lot1 <- subset(coil_table, Manufacturing_Lot=="Lot1")
+lot2 <- subset(coil_table, Manufacturing_Lot=="Lot2")
+lot3 <- subset(coil_table, Manufacturing_Lot=="Lot3")
+
+t.test(lot1$PSI,mu=1500)
+t.test(lot2$PSI,mu=1500)
+t.test(lot3$PSI,mu=1500)
