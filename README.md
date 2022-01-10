@@ -21,13 +21,13 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![image3](https://github.com/JFoArlas/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png)
 
 ## T-Tests on Suspension Coils
-### After performing t-tests on the suspension coil data, I found that the mean of the sample is 1498.78, with a p-value of .06. 
+### After performing t-tests on the suspension coil data, I found that the mean of the sample is 1498.78, with a p-value of .06:
 
 ![image4](https://github.com/JFoArlas/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_coil_table.png)
 
 - Because that p-value is higher than .05, we do not have enough evidence to reject the null hypothesis. **So the PSI across all manufacturing lots is statistically similar to the population mean of 1,500 pounds per square inch.**
 
-### I additionally performed t-tests on each lot individually.
+### I additionally performed t-tests on each lot individually:
 
 ![image5](https://github.com/JFoArlas/MechaCar_Statistical_Analysis/blob/main/Resources/t.test_lots1-3.png)
 
