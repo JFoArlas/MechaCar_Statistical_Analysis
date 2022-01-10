@@ -1,5 +1,4 @@
 # MechaCar_Statistical_Analysis
-For the final deliverable, write up a short description of the study design for additional statistical analysis.
 
 ## Linear Regression to Predict MPG
 
@@ -9,4 +8,8 @@ For the final deliverable, write up a short description of the study design for 
 
 - The slope of the linear model is not zero because the *p-value is 5.35e-11*, which is very low. A p-value below the significance level of .05 gives us sufficent evidence to reject the null hypothesis, and tells us that the slope of this linear model is not zero.
 
-- This linear model could predict mpg of MechaCar prototypes relatively effectively given the *R-squared value of 0.7149*. This means that ~71% of the observed variation can be explained by the model's inputs.
+- This linear model could predict mpg of MechaCar prototypes relatively effectively given the *R-squared value of 0.7149*. This means that ~72% of the observed variation can be explained by the model's inputs.
+
+
+
+For the final deliverable, write up a short description of the study design for additional statistical analysis.
