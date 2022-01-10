@@ -23,7 +23,7 @@ total_summary <- coil_table %>%
             .groups = 'keep')
 
 #create a lot_summary dataframe grouped by manufacturing lot
-total_summary <- coil_table %>% 
+lot_summary <- coil_table %>% 
   group_by(Manufacturing_Lot) %>% 
   summarize(Mean=mean(PSI), 
             Median=median(PSI),
